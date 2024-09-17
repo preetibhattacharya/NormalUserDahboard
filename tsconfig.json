@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "target": "esnext",                  // Target latest JavaScript version
+      "module": "esnext",                  // Use ES Modules
+      "jsx": "react-jsx",                  // Enable JSX support for React 17+
+      "strict": true,                      // Enable all strict type-checking options
+      "esModuleInterop": true,             // Enable compatibility with CommonJS modules
+      "skipLibCheck": true,                // Skip type checking of declaration files
+      "forceConsistentCasingInFileNames": true,
+      "moduleResolution": "node",          // Use Node-style module resolution
+      "resolveJsonModule": true,           // Allow importing JSON modules
+      "noEmit": true
+    },
+    "include": ["src/**/*.ts", "src/**/*.tsx"],
+    "exclude": ["node_modules"]
+  }
+  
